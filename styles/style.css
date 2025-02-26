@@ -92,7 +92,7 @@
 
 
 }
-.cover-title{
+.cover-title {
     padding-top: 163px;
 }
 .cover-description-text {
@@ -109,7 +109,7 @@
     padding: 95px 0 40px 50px;
     display: flex;
 }
-.bet-button{
+.bet-button {
     
     font-family: raleway;
     font-size: 22px;
@@ -146,7 +146,7 @@
     
 
 }
-.card_type_picture{
+.card_type_picture {
     background-image: url(/images/card-lot-03.jpg);
   
 
@@ -167,7 +167,6 @@
     height: 100%;
     position: relative;
     gap: 34px;
-    height: min-content;
     justify-content: space-between;
     background-size: cover;
     background-repeat: no-repeat;
@@ -190,7 +189,7 @@
     z-index: 1;
     
 }
-.card-text{
+.card-text {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -203,7 +202,7 @@
     z-index: 1;
     align-self: flex-end;
 }
-.card-text-1{ 
+.card-text-1 { 
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -216,7 +215,7 @@
     z-index: 1;
     align-self: flex-end;
 }
-.card-text-3{
+.card-text-3 {
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -229,7 +228,7 @@
     z-index: 1;
     align-self: flex-end;
 }
-.lots__look-more-link{
+.lots__look-more-link {
     text-decoration: none;
     font-family: raleway;
     font-size: 20px;
@@ -238,7 +237,7 @@
     padding: 30px 0 0 65px;
     
 }/*все что выше стили лотов*/ 
-.about{
+.about {
     display: grid;
     grid-template-columns: 334px 1fr;
     padding-top: 155px;
@@ -250,7 +249,7 @@
 
 
 }
-.about-logo{
+.about-logo {
     display: flex;
     margin: auto;
     width: 148px;
@@ -258,7 +257,7 @@
     margin-top: 65px;
 
 }
-.circle{
+.circle {
     background-color: black;
     width: 240px;
     height: 240px;
@@ -266,7 +265,7 @@
     margin-left: 71px;
     
 }
-.about-text{
+.about-text {
     font-family: raleway;
     font-weight: 400;
     font-size: 20px;
@@ -276,7 +275,7 @@
     margin-bottom: 24px;
 
 }
-.about-title{
+.about-title {
     font-family: raleway;
     font-weight: 700;
     font-size: 40px;
@@ -286,7 +285,7 @@
     padding: 103px 0 0 48px;
 
 }
-.about-text-two{
+.about-text-two {
     font-family: raleway;
     font-weight: 400;
     font-size: 20px;
@@ -295,26 +294,26 @@
     padding: 0px 0 0 50px;
 } /* все что выше about*/
 
-.footer{
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-top: 176px;
 
 
 }
-.footer-menu{
+.footer-menu {
     font-family: raleway;
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
     
 }
-.footer-menu-list{
+.footer-menu-list {
     list-style: none;
     text-align: center;
     
 }
-.footer__social-list{
+.footer__social-list {
     list-style: none;
     display: flex;
     gap: 48px;
@@ -322,11 +321,11 @@
     padding-left: 25px;
 
 }
-.footer__social-icon{
+.footer__social-icon {
     width: 48px;
     height: 48px;
 }
-.footer__menu-link_active{
+.footer__menu-link_active {
     text-decoration: none;
 }
 /* все что выше стили подвала*/
