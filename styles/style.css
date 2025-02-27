@@ -91,7 +91,7 @@
     letter-spacing: 30px;
     display: block;
     text-align: center;
-    margin-right: -0.3em;
+    margin-left: 0.3em; /*  по рекомендации ревьюера было right - 0.3em но так, файл расширялся и была ошибка по тесту, сделал наоборот*/
     margin-bottom: 10px;
     position: relative;
 }
@@ -143,7 +143,7 @@
     border-color: white;
     border-width: 1px;
     padding: 25px 32px 25px 31px;
-  /*  margin: 10px 0 15px 103px; */
+    margin: 10px 0 15px 103px;
 }  /*все что выше, стили баннера*/
 
 .lots-heading {
@@ -312,7 +312,7 @@
 }
 
 .footer-menu {
-    font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif; 
     font-weight: 400;
     font-size: 18px;
     line-height: 21.13px;
