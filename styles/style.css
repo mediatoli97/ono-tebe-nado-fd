@@ -23,9 +23,8 @@
     padding-top: 3px;
 }
 
-.header__links-list-item_no-bullit {
+.header__links-no-bullit {
     list-style: none;
-    padding-top: 3px;
 }
 
 .header__links-list {
@@ -64,7 +63,7 @@
     inset: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(0 0 0 / 0.5);
+    background-color: rgb(0 0 0 / 0.6);
     z-index: 0;
 }
 
@@ -150,7 +149,7 @@
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 40px;
-    line-height: 46,96px;
+    line-height: 46.96px;
     text-transform: uppercase;
     padding: 182px 0 0 64px;
 }
@@ -176,16 +175,14 @@
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
     width: 334px;
-    height: 596px;
+    min-height: 596px;
     position: relative;
     gap: 34px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
     justify-content: space-between;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
 } 
 
 .card-title {
@@ -202,48 +199,14 @@
 }
 
 .card-text {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
     color: white;
-    padding: 35px 40px 48px 40px;
+    padding: 0px 40px 48px 40px;
     z-index: 1;
-    align-self: flex-end;
-    position: relative;
-}
-
-.card-text-1 {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: white;
-    padding: 277px 40px 0px 40px;
-    z-index: 1;
-    align-self: flex-end;
-    position: relative;
-}
-
-.card-text-3 {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    font-family: "Raleway", sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    color: white;
-    padding: 130px 40px 48px 40px;
-    z-index: 1;
-    align-self: flex-end;
-    position: relative;
+    position: relative;  
 }
 
 .lots__look-more-link {
@@ -252,6 +215,11 @@
     font-weight: 400;
     line-height: 83px;
     padding: 30px 0 0 65px;
+}
+.position-backgound {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card-link {
